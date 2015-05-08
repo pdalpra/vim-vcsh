@@ -3,6 +3,18 @@
 " Global configuration
 
 set nocompatible " Break compatibilty with Vi
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'wombat256.vim'
+
+call vundle#end()
+filetype plugin indent on
+
+
 set bs=2 " Backspace can delete almost everything
 set number " Numbers lines
 set numberwidth=4 " Up to 9999 lines
