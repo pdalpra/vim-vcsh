@@ -39,7 +39,7 @@ filetype plugin on " Enable plugins
 set autoindent " Auto identation
 set smartindent " Guess next indentation
 set tabstop=2 " Tab = 4 spaces 
-" set expandtab " Tabs = spaces
+set expandtab " Tabs = spaces
 set shiftwidth=2 " Indent by 4 spaces
 set shiftround " Round shifting
 filetype plugin indent on " Enable specific identation
